@@ -35,24 +35,28 @@ class Obraz {
     }
 
 
-    public void calculate_histogram(){
+    public void calculate_histogram(int charId){
 
         for(int i=0;i<size_n;i++) {
-            for(int j=0;j<size_m;j++) {
-
-                for(int k=0;k<94;k++) { // dla kazdego znaku asci
-                    if(tab[i][j] == (char)(k+33)) histogram[k]++; // sprawdza ilosc wsytepowania dla akzdego el asci
+            for (int j = 0; j < size_m; j++) {
+                if (tab[i][j] == (char) (charId)) {
+                    histogram[charId]++; // sprawdza ilosc wsytepowania dla akzdego el asci
                 }
 
             }
         }
-
     }
 
-    public void print_histogram(int k){
+    public synchronized void print_histogram(){
 
-        for(int i=0;i<k;i++) {
-            System.out.print((char)(i+33)+" "+histogram[i]+"\n");
+        for(int i=0;i<94;i++) {
+
+            String histogramChars = "";
+            for(int j = 0; j<histogram[i];j++){
+                histogramChars+="=";
+            }
+            System.out.print((char)(i+33)+" "+histogram[i]+ histogramChars+ " \n");
+
         }
 
     }

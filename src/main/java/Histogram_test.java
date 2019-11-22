@@ -16,7 +16,7 @@ class Histogram_test {
 //        obraz_1.print_histogram();
 
          System.out.println("Set number of threads");
-         int num_threads = scanner.nextInt();
+         int num_threads = 94;
 
          Watek[] NewThr = new Watek[num_threads];
 

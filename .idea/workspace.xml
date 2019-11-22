@@ -2,13 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0a3c143b-8696-480a-a88f-6435f8127b05" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ThreadDemo/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ThreadDemo/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ThreadDemo/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ThreadDemo/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ThreadDemo/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ThreadDemo/ThreadDemo.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ThreadDemo/src/main/java/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ThreadDemo/src/main/java/ThreadClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Histogram_test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Histogram_test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Obraz.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Obraz.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Watek.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Watek.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Histogram_test.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Histogram_test.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Obraz.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Obraz.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -80,7 +86,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1574352894869</updated>
-      <workItem from="1574352898757" duration="5612000" />
+      <workItem from="1574352898757" duration="7525000" />
+      <workItem from="1574407159361" duration="1156000" />
     </task>
     <servers />
   </component>
@@ -92,7 +99,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
