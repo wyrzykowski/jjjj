@@ -10,6 +10,6 @@ public class Watek extends Thread {
     public void run(){
         System.out.println(Thread.currentThread() + " ");
         obraz.calculate_histogram(i);
-        obraz.print_histogram();
+        obraz.print_histogram(i);
     }
 }

@@ -39,7 +39,7 @@ class Obraz {
 
         for(int i=0;i<size_n;i++) {
             for (int j = 0; j < size_m; j++) {
-                if (tab[i][j] == (char) (charId)) {
+                if (tab[i][j] == (char) (charId+33)) {
                     histogram[charId]++; // sprawdza ilosc wsytepowania dla akzdego el asci
                 }
 
@@ -47,18 +47,14 @@ class Obraz {
         }
     }
 
-    public synchronized void print_histogram(){
-
-        for(int i=0;i<94;i++) {
-
+    public synchronized void print_histogram(int k){
             String histogramChars = "";
-            for(int j = 0; j<histogram[i];j++){
+            for(int j = 0; j<histogram[k];j++){
                 histogramChars+="=";
             }
-            System.out.print((char)(i+33)+" "+histogram[i]+ histogramChars+ " \n");
-
+            System.out.print((char)(k+33)+" "+histogram[k]+ histogramChars+ " \n");
         }
 
-    }
+
 
 }
